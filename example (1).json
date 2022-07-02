@@ -1,0 +1,83 @@
+#%RAML 1.0 NamedExample
+values:
+  [
+ {
+ "question_type": "Depression",
+ "question_number": "1",
+ "question": "Little interest or pleasure in doing things?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "2",
+ "question": "Feeling down,depressed,or hopeless?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "3",
+ "question": "Trouble falling or staying asleep,or sleeping too much?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "4",
+ "question": "Feeling tired or having little energy?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "5",
+ "question": "Poor appetite or overeating?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "6",
+ "question": "Feeling bad about yourself-or that you are a failure or have let yourself or your family down?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "7",
+ "question": "Trouble concentrating on things,such as reading the newspaper or watching television?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ },
+
+ {
+ "question_type": "Depression",
+ "question_number": "8",
+ "question": "Being so fidgety or restless that you have been moving around a lot more than usual?",
+ "op_1": "Not at all",
+ "op_2": "Several Days",
+ "op_3": "More than half the days",
+ "op_4": "Nearly every day"
+ }
+]
