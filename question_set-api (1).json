@@ -1,0 +1,26 @@
+#%RAML 1.0
+
+types:
+  newtype:
+    example: !include examples/example.json
+    type: any
+title: question_set api
+protocols:
+  - HTTPS
+/questionnaire:
+  get:
+    queryParameters:
+      question_type:
+        type: string
+        required: true
+        example: "depression"
+    responses:
+      200:
+        body:
+          application/json:
+            type: newtype
+      400:
+        body:
+          application/json:
+            example:
+              message:error!!   
